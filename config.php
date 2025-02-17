@@ -3,7 +3,7 @@
 
 const __TG_TOKEN = "7410084347:AAHV5B9blDyWpNHmR-qqEOhQ3yAUOPcGm28";
 
-const BOT_USERNAME = "testingyourmamasasshole";
+const BOT_USERNAME = "testingyourmamasasshole_bot";
 const BOT_MESSAGE_PHOTO_URL = "https://i.imgur.com/joKhJZn.png";
 const BOT_CHAT_ID_NOTIFY = "4693164553";
 
