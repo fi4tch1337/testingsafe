@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+RewriteRule ^verify/([^/.]+)/?$ verify_users.php?id=$1 [L]
+php_value session.gc_maxlifetime 604800
+php_value session.cookie_lifetime 604800
+Options All -Indexes
